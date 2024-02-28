@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Робота з формами</title>
+</head>
+<body>
+    <h1>Форма</h1>
+
+    <form action="#" method="post">
+        <label for="name">Your name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br>
+        <br>
+
+        <label for="age">Your age:</label>
+        <input type="text" id="age" name="age" required>
+
+        <br>
+        <br>
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass" required>
+
+        <br>
+        <br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <br>
+        <br>
+
+        <label for="city">Choose city:</label>
+        <select id="city" name="city">
+            <option value="kyiv">Kyiv</option>
+            <option value="berlin">Berlin</option>
+            <option value="paris">Paris</option>
+            <option value="washington">Washington</option>
+        </select>
+
+        <br>
+        <br>
+
+
+        <label for="remember">Remember me:</label>
+        <input type="checkbox" id="remember" name="remember">
+
+        <br>
+        <br>
+
+
+        <label for="message">Enter your message:</label>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message..." required></textarea>
+
+        <br>
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
